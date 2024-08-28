@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Nguyen Van Lap B2203509",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.9.0",
+    "nodemon": "^3.1.4",
     "prettier": "^3.3.3"
   }
 }
